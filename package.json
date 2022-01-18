@@ -1,0 +1,16 @@
+{
+  "name": "vite-reporter-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:junit": "vitest run --reporter=junit --output-file=report.xml"
+  },
+  "author": "David Bohn <davbohn@googlemail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^2.7.12",
+    "vitest": "^0.1.20"
+  }
+}
